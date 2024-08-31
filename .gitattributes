@@ -1,3 +1,4 @@
 data/raw/creditcard.csv filter=lfs diff=lfs merge=lfs -text
 models/knn_base_v1.joblib filter=lfs diff=lfs merge=lfs -text
 data/processed-data/eda_preprocessed_data.csv filter=lfs diff=lfs merge=lfs -text
+data/proessed_data/eda_preprocessed_data.csv filter=lfs diff=lfs merge=lfs -text
