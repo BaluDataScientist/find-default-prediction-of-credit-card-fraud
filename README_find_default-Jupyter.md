@@ -33,7 +33,9 @@ So, we need to build a strong model which as high accuracy in identifying a frau
 ### Key Files and Directories
 
 #### data: 
-The data/processed-data folder contains the processed files such as X_train, y_train, etc., which are loaded at the beginning of the second and third notebooks.
+The data/processed-data folder contains the processed files such as X_train, y_train, etc., are saved as a .joblib file which are loaded at the beginning of the second and third notebooks. Large files are not getting uploaded in github. One of the large file X_train_smote_v1.joblib is uploaded in the Google Drive and it can be accessed at link https://drive.google.com/file/d/16k4OhswVwlpXO8YOVf2cgDQPAXQ_HWow/view?usp=sharing
+
+Ensure this file is downloaded and included in the data/processed-data folder along with other file you get from github.
 
 #### models: 
 The models folder contains trained models (pre & post hyperparameter tuning) and the Json file containing metrics of every model. The scaler file amount_scaler.joblib is used to fit the training data is saved here.
