@@ -117,7 +117,7 @@ if uploaded_file is not None:
                     # Save predictions to a CSV file with dynamic model name
                     output_file = f"predictions_{model_selection}.csv"
                     processed_df.to_csv(output_file, index=False)
-                    st.write("### Predictions")
+                    st.write(f"### Predictions {model_selection}")
                     st.write(processed_df.head())
                     st.download_button(
                         label="Download Predictions File",
